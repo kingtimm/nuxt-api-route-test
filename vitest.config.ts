@@ -4,7 +4,7 @@ export default defineVitestConfig({
     test: {
         environmentOptions: {
             nuxt: {
-                
+                domEnvironment: 'jsdom'
             }
         }
     }

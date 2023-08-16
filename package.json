@@ -13,6 +13,7 @@
     "@nuxt/devtools": "latest",
     "@types/node": "^18.17.3",
     "happy-dom": "^10.10.0",
+    "jsdom": "^22.1.0",
     "nuxt": "^3.6.5",
     "nuxt-vitest": "^0.10.2"
   }
