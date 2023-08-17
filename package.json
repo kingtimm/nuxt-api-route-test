@@ -7,11 +7,15 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "test": "vitest"
+    "test": "vitest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^0.40.2",
     "@nuxt/devtools": "latest",
     "@types/node": "^18.17.3",
+    "eslint": "^8.47.0",
     "happy-dom": "^10.10.0",
     "jsdom": "^22.1.0",
     "nuxt": "^3.6.5",
